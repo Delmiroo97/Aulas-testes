@@ -1,0 +1,238 @@
+@charset "UTF-8"; 
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(img/por-do-sol-vibrante-reflete-em-cena-de-agua-tranquila-gerada-por-ia.jpg);
+
+}
+
+#content  {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+
+}
+
+.itens ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#ibusca {
+    padding: 5px;
+}
+
+::placeholder {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+.search  {
+   
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding-left: 10px;
+    right: 100px;
+    outline: none;
+    color: #ffffff;
+}
+
+.search input {
+    outline: none;
+    background: transparent;
+    border: 0;   
+    color: #ffffff;
+}
+
+
+.search a {
+    padding-right: 8px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.container {
+    width: 1300px;
+    height: 600px;
+    position: relative;
+    bottom: 130px;
+    display: flex;
+}
+
+.menu {
+    width: 70%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    gap: 20px;
+    background: url(img/por-do-sol-vibrante-reflete-em-cena-de-agua-tranquila-gerada-por-ia.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.menu h2 {
+    font-size: 3.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu h3 {
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu p {
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+.logo i {
+    padding-right: 20px;
+    font-size: 1.5em;
+}
+
+.login {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    
+    
+}
+
+.login h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    gap: 105px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#iemail {
+    width: 90%;
+    height: 30px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ffffff;
+    padding: 0px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.email {
+    width: 90%;
+    height: 30px;
+}
+
+.email a i {
+    position: relative;
+    right: 20px;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+#ipassword {
+    width: 90%;
+    height: 30px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ffffff;
+    padding: 0px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.password {
+    width: 90%;
+    height: 30px;   
+}
+
+.password a i {
+    position: relative;
+    right: 20px;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.input p {
+    padding: 5px;
+}
+
+button {
+    width: 90%;
+    height: 30px;
+    background-color: crimson;
+    color: #ffffff;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 7px;
+}
+
+span {
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 700;
+    font-family: arial;
+}
+
+#header {
+   width: 100%;
+   height: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+   position: relative;
+   top: 100px;
+}
+
+#header i, p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+#header p {
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
