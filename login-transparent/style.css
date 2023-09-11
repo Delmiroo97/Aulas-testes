@@ -44,12 +44,9 @@ body {
 
 ::placeholder {
     color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-
-    
+    font-family: Arial, Helvetica, sans-serif;  
 }
 .search  {
-   
     font-size: 20px;
     border-radius: 5px;
     border: 1px solid white;
@@ -125,9 +122,7 @@ body {
     justify-content: center;
     align-items: center;
     background: transparent;
-    backdrop-filter: blur(20px);
-    
-    
+    backdrop-filter: blur(20px);   
 }
 
 .login h2 {
@@ -155,6 +150,7 @@ body {
     padding: 0px 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
+    color: #ffffff;
 }
 
 .email {
@@ -179,6 +175,7 @@ body {
     padding: 0px 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
+    color: #ffffff;
 }
 
 .password {
