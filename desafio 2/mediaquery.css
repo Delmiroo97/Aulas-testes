@@ -42,14 +42,23 @@
    #container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 25px;
     height: 100%;
    }
 
+   .img1, .img2, .img3, .img4 {
+    width: 315px;
+    height: 202px;
+    position: relative;
+   }
+
    .img5, .img6, .img7, .img8 {
     position: relative;
     top: 80px;
+    width: 315px;
+    height: 202px;
    }
 
    #footer {
