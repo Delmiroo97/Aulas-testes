@@ -1,0 +1,145 @@
+@charset "UTF-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    background-color: #00AEFF;
+}
+
+
+.content2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+
+#box-content {
+    width: 100%;
+    height: 378px;
+    background: linear-gradient(rgba(0,0,0, 0.8), rgba(88, 88, 88, 0.8)), url(img/wallpaper1111.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+  
+}
+
+#box-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    font-weight: 600; 
+    margin-left: 100px;
+    color:  #ffff;
+
+}
+
+#box-content p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;  
+    margin-left: 100px;
+    color:  #ffff;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+h2, span {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 2em;
+    position: relative;
+    margin-top: 70px;
+}
+
+span {
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    color:#474747; 
+}
+
+.img1, .img2, .img3, .img4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 415px;
+    height: 302px;
+    background-color: #EBE9EA;
+    position: relative;
+    top: 80px;
+}
+
+.img5, .img6, .img7, .img8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 415px;
+    height: 302px;
+    background-color: #EBE9EA;
+    position: relative;
+    bottom: 50px;
+}
+
+
+.img1 img, .img2 img, .img3 img, .img4 img {
+    width: 250px;
+   height: 150px;
+}
+
+.img5 img, .img6 img, .img7 img, .img8 img {
+    width: 250px;
+   height: 150px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #00AEFF;
+}
+
+#footer h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
