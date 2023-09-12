@@ -62,6 +62,7 @@
 }
 
 #box-content p {
+    max-width: 650px;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     font-weight: 500;  
@@ -116,6 +117,7 @@ span {
     background-color: #EBE9EA;
     position: relative;
     bottom: 50px;
+    
 }
 
 
