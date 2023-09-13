@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
    } 
+
    #box-content {
     background: linear-gradient(rgba(0,0,0, 0.4), rgba(10, 10, 10, 0.8)), url(img/wallpaper.jpeg);
     background-size: cover;
