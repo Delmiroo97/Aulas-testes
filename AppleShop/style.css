@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: #ffff;
+    background-color: black;
+}
+
+.links ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    position: relative;
+    left: 700px;
+}
+
+.links ul li {
+    color: #ffff;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    background-color: #e0e0e0;
+    align-items: center;
+    justify-content: center;
+}
+
+.card01, .card02, .card03, .card04 {
+    margin-top: 100px;
+}
+
+.card01, .card02, .card03, .card04, .card05, .card06, .card07, .card08, .card09, .card10 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    background-color: #ffff;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card11, .card12, .card13, .card14, .card15, .card16 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    background-color: #ffff;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product01 {
+    width: 400px;
+    height: 80%;
+    background: url(iphone-photos/Apple-iPhone-8\ Plus-64GB-Vermelho.png);
+    background-size: cover;
+}
+
+.product02 {
+    width: 400px;
+    height: 80%;
+    background: url(iphone-photos/Apple-iPhone-8-Plus-64GB-Space-Gray.png);
+    background-size: cover;
+}
+
+.product03 {
+    width: 400px;
+    height: 80%;
+    background: url(iphone-photos/Apple-iPhone-8-Plus-64GB-Dourado.png);
+    background-size: cover;
+}
+
+.product04 {
+    width: 400px;
+    height: 80%;
+    background: url(iphone-photos/Apple-iPhone-X-64GB-Cinza.png);
+    background-size: cover;
+}
+
+.product05 {
+    width: 400px;
+    height: 80%;
+    background: url(iphone-photos/Apple-iPhone-XR-128GB-Coral.png);
+    background-size: cover;
+   
+}
+
+.product06 {
+    width: 400px;
+    height: 80%;
+    background: url(iphone-photos/Apple-iPhone-XR-128GB-Preto.png);
+    background-size: cover;
+}
+
+.product07 {
+    width: 400px;
+    height: 80%;
+    background: url(iphone-photos/Apple-iPhone-XR-64GB-Branco.png);
+    background-size: cover;
+}
+
+.product08 {
+    width: 400px;
+    height: 80%;
+    background: url(iphone-photos/Apple-iPhone-Xs-64GB-Dourado.png);
+    background-size: cover;
+}
+
+.product09 {
+    width: 400px;
+    height: 80%;
+    background: url(iphone-photos/Apple-iPhone-Xs-Max-64GB-Space-Gray.png);
+    background-size: cover;
+}
+
+.product10 {
+    width: 380px;
+    height: 80%;
+    background: url(iphone-photos/Apple-iPhone-11-Pro-64GB-Verde.jpeg);
+    background-size: cover;
+    margin-top: 5px;
+    background-position: center;
+}
+
+.product11 {
+    width: 380px;
+    height: 80%;
+    background: url(iphone-photos/Apple-iPhone-11-Pro-Max-64GB-Gold.jpeg);
+    background-size: cover;
+    margin-top: 5px;
+    background-position: center;
+}
+
+.product12 {
+    width: 380px;
+    height: 80%;
+    background: url(iphone-photos/Apple-iPhone-11-Pro-256GB-Space-Gray.jpeg);
+    background-size: cover;
+    margin-top: 5px;
+    background-position: center;
+}
+
+.product13 {
+    width: 380px;
+    height: 80%;
+    background: url(iphone-photos/Apple-iPhone-13-Pro-Max-Sierra-Blue-128GB.png);
+    background-size: cover;
+    margin-top: 5px;
+    background-position: center;
+}
+
+.product14 {
+    width: 380px;
+    height: 80%;
+    background: url(iphone-photos/Apple-iPhone-13-Midnight-128GB.png);
+    background-size: cover;
+    margin-top: 5px;
+    background-position: center;
+}
+
+.product15 {
+    width: 380px;
+    height: 80%;
+    background: url(iphone-photos/Apple-iPhone-13-Pink-256GB.png);
+    background-size: cover;
+    margin-top: 5px;
+    background-position: center;
+}
+
+.product16 {
+    width: 380px;
+    height: 80%;
+    background: url(iphone-photos/Apple-iPhone-13-Pro-Max-Silver-256GB.png);
+    background-size: cover;
+    margin-top: 5px;
+    background-position: center;
+}
+
+.d-01, .d-02, .d-03, .d-04, .d-05, .d-06, .d-07, .d-08, .d-09, .d-10 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    border-top: 3px solid #e0e0e0;
+}
+
+.d-11, .d-12, .d-13, .d-14, .d-15, .d-16 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    border-top: 3px solid #e0e0e0;
+}
+
+.d-01 h2, .d-02 h2, .d-03 h2, .d-04 h2, .d-05 h2, .d-06 h2, .d-07 h2, .d-08 h2, .d-09 h2, .d-10 h2  {
+    font-size: 2rem;
+}
+
+.d-11 h2, .d-12 h2, .d-13 h2, .d-14 h2, .d-15 h2, .d-16 h2 {
+    font-size: 2rem;
+}
+
+.card01 p, .card02 p, .card03 p, .card04 p, .card05 p, .card06 p, .card07 p, .card08 p, .card09 p, .card10 p    {
+    color: #bdb6b6;
+}
+
+.card11 p, .card12 p, .card13 p, .card14 p, .card15 p, .card16 p {
+    color: #bdb6b6;
+}
