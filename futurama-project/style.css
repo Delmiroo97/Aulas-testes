@@ -1,0 +1,306 @@
+@charset "UTF-8"; 
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-log {
+    width: 100%;
+    height: 200px;
+    background: url(futurama-img/Futurama-Logo-PNG-Image-Background.png) center center;
+    background-repeat: no-repeat;
+    background-color: white;    
+}
+
+.header-links ul {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #000000cc;
+}
+
+.content {
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+
+.content p {
+    max-width: 300px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.cards {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card01 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.circle01 {
+    width: 300px;
+    height: 300px;
+    background: url(futurama-img/fryy.png);
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.name01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.card02 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.circle02 {
+    width: 300px;
+    height: 300px;
+    background: url(futurama-img/amy.png);
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.name02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.card03 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.circle03 {
+    width: 300px;
+    height: 300px;
+    background: url(futurama-img/hermes.png);
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.name03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.card04 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.circle04 {
+    width: 300px;
+    height: 300px;
+    background: url(futurama-img/zoidberg.png);
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.name04 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.card05 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.circle05 {
+    width: 300px;
+    height: 300px;
+    background: url(futurama-img/professor.png);
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.name05 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.card06 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.circle06 {
+    width: 300px;
+    height: 300px;
+    background: url(futurama-img/bender.png);
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.name06 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.card07 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.circle07 {
+    width: 300px;
+    height: 300px;
+    background: url(futurama-img/leela.png);
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.name07 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.card08 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.circle08 {
+    width: 300px;
+    height: 300px;
+    background: url(futurama-img/Zapp\ Brannigan.png);
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.name08 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.card09 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.circle09 {
+    width: 300px;
+    height: 300px;
+    background: url(futurama-img/nibbler.png);
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.name09 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+#container02 {
+    padding: 30px;
+}
+
+.box-ytb {
+    position: relative;
+    bottom: 450px;
+}

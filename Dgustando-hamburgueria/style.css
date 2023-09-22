@@ -1,0 +1,529 @@
+@charset "UTF-8"; 
+
+:root {
+
+    --red01: #c1121f;
+    --red02: #e63946;
+    --yellow: #fcbf49;
+    --white: #edede9;
+    --black: #000000;
+    --mostarda: #ffbf69;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    font-family: 'Bebas Neue', sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--black);
+    color: var(--white);
+}
+
+.logo {
+    
+    font-size: 1.5rem;
+}
+
+.itens ul {
+    display: flex;
+    gap: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.black-white {
+    background: var(--white);
+    color: var(--black);
+    padding: 0 8px;
+    border-radius: 5px;
+}
+
+.black-white:hover {
+    background: var(--yellow);
+    color: var(--white);
+    transition: 0.5s;
+}
+
+.itens li {
+    list-style: none;
+    cursor: pointer;
+}
+
+#interface {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: var(--black);
+    color: var(--white);
+
+}
+
+.content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.content h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.2rem;
+    border-bottom: 3px solid var(--yellow);
+}
+
+.content strong {
+    color: var(--yellow);
+}
+
+.content h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 15px;
+    letter-spacing: 0.1rem;
+}
+
+.content span {
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--mostarda);
+}
+
+.btn {
+    width: 150px;
+    padding: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: var(--mostarda);
+    color: #ffff;
+    border-radius: 20px;
+    border: 0;
+    margin-top: 15px;
+    letter-spacing: 0.1rem;
+}
+
+.btn:hover {
+    color: var(--mostarda);
+    background: var(--white);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.background {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.batata {
+    position: relative;
+    left: 10px;
+    top: 80px;
+    z-index: 2;
+    
+}
+
+.hamburger {
+    position: relative;
+    left: 400px;
+    z-index: 3;
+}
+
+.refri {
+    position: relative;
+    right: 1050px;
+    z-index: 2;
+}
+
+/*SEGUNDA SESSÃO */
+
+#box-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+}
+
+.text p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.box-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.bkd01 {
+    width: 700px;
+    height: 400px;
+    background: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0,0.4)), url(img/hamburguer-de-carne-grelhada-com-queijo-e-tomate-gerado-por-ia.jpg);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.bkd01 h1 {
+    font-family: 'Bebas Neue', sans-serif; 
+    color: var(--mostarda);
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.bkd01 p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 1rem;   
+}
+
+.bkd01 strong p {
+    background-color: var(--mostarda);
+    width: 200px;
+    text-align: center;
+    padding: 4px;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+
+.bkd02 {
+    width: 700px;
+    height: 400px;
+    background: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0,0.4)), url(img/cheddar-derretido-em-refeicao-de-hamburguer-de-carne-grelhada-gerada-por-ia.jpg);
+    background-position: bottom left;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.bkd02 h1 {
+    font-family: 'Bebas Neue', sans-serif; 
+    color: var(--mostarda);
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.bkd02 p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 1rem;   
+}
+
+.bkd02 strong p {
+    background-color: var(--mostarda);
+    width: 200px;
+    text-align: center;
+    padding: 4px;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+
+
+.bkd03 {
+    width: 700px;
+    height: 400px;
+    background: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0,0.4)), url(img/cheeseburguer-grelhado-com-tomate-cebola-e-fritas-gerado-por-ia.jpg);
+    background-position: center left;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.bkd03 h1 {
+    font-family: 'Bebas Neue', sans-serif; 
+    color: var(--mostarda);
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.bkd03 p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 1rem;   
+}
+
+.bkd03 strong p {
+    background-color: var(--mostarda);
+    width: 200px;
+    text-align: center;
+    padding: 4px;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+
+.bkd04 {
+    width: 700px;
+    height: 400px;
+    background: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0,0.4)), url(img/hamburguer-de-carne-grelhada-com-tomate-no-pao-gerado-por-ia.jpg);
+    background-position: center left;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.bkd04 h1 {
+    font-family: 'Bebas Neue', sans-serif; 
+    color: var(--mostarda);
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.bkd04 p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 1rem;   
+}
+
+.bkd04 strong p {
+    background-color: var(--mostarda);
+    width: 200px;
+    text-align: center;
+    padding: 4px;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+
+#container-drinks {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--yellow);
+}
+
+.drinks {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drinks h1  {
+    font-size: 3.5rem;
+    font-family: 'Bebas Neue', sans-serif; 
+    letter-spacing: 0.2rem;
+    color: var(--white);
+}
+
+.itens-drinks {
+    width: 1000px;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.item01, .item02, .item03, .item04,
+.item05, .item06, .item07 {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    border: 2px solid black;
+}
+
+.item01, .item02, .item03, .item04,
+.item05, .item06 {
+    border-bottom: none;
+}
+
+.item01 {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.item07 {
+    border-radius: 0px 0px 20px 20px;
+}
+
+.card-coca {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background: url(drinks/coca-garrafa1.png);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 95px;
+    margin-top: 20px;
+}
+
+.card-pepsi {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background: url(drinks/pepsi-garrafa1.png);
+    background-repeat: no-repeat; 
+    position: relative;
+    left: 60px;
+    margin-top: 20px;
+}
+
+.card-fanta {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background: url(drinks/fanta-lata1.png);
+    background-repeat: no-repeat;  
+    margin-top: 20px; 
+}
+
+.card-sprite {
+    width: 200px;
+    height: 200px;
+    background: url(drinks/sprite-lata1.png);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 82px;
+    margin-top: 20px;
+}
+
+.card-copo {
+    width: 200px;
+    height: 200px;
+    background: url(drinks/coca-copo1500ml.png);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 17px;
+    margin-top: 20px;
+}
+
+.card-chopp {
+    width: 200px;
+    height: 200px;
+    background: url(drinks/chopp1.png);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 73px;
+    margin-top: 20px;
+}
+
+.card-stella {
+    width: 200px;
+    height: 200px;
+    background: url(drinks/stella-long.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 60px;
+    margin-top: 20px;
+}
+
+.card-price01 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    margin-bottom:  20px;
+    margin-right: 20px;
+}
+
+.card-price02 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    margin-bottom:  20px;
+    margin-right: 20px;
+}
+
+.card-price03 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    margin-bottom:  20px;
+    margin-right: 20px;
+}
+
+.card-price04 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    margin-bottom:  20px;
+    margin-right: 20px;
+}
+
+
+.card-price05 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    margin-bottom:  20px;
+    margin-right: 20px;
+}
+
+.card-price06 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    margin-bottom:  20px;
+    margin-right: 20px;
+}
+
+.card-price07 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    margin-bottom:  20px;
+    margin-right: 20px;
+}
