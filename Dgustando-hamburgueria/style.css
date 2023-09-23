@@ -362,6 +362,7 @@
     align-items: center;
     flex-direction: column;
     background: var(--yellow);
+    padding-bottom: 50px;
 }
 
 .drinks {
@@ -575,5 +576,104 @@ h3 {
     font-size: 2.8rem;
     margin-bottom:  20px;
     margin-right: 20px;
+}
+
+#container-map {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: var(--black);
+    color: var(--white);
+}
+
+.title-map {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+
+.title-map i {
+    font-size: 3rem;
+}
+
+.title-map h1 {
+    font-size: 2.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+.title-map p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.map {
+    width: 600px;
+    height: 600px;
+}
+
+.endereco-map {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.the-end-map {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 600px;
+}
+
+.delivery-map h1 {
+    font-size: 3rem;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+.delivery-map p {
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+.delivery-map span {
+    color: var(--mostarda);
+}
+
+.btn-map button {
+    width: 300px;
+    padding: 10px;
+    border: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.1rem;
+    background: var(--mostarda);
+    color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+.btn-map button:hover {
+    border-radius: 20px;
+    transition: 0.5s;
 }
 
