@@ -677,3 +677,52 @@ h3 {
     transition: 0.5s;
 }
 
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    background: var(--white);
+}
+
+.footer-midias {
+    display: flex;
+    position: relative;
+    right: 100px;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 40px;
+}
+
+.footer-facebook {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: var(--yellow);
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.footer-instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: var(--yellow);
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.footer-facebook i, .footer-instagram i {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--white);
+    cursor: pointer;
+}
+
+
