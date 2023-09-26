@@ -1,0 +1,240 @@
+@charset "UTF-8"; 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0,0.8)), url(website-img/Flamengo.jpg);
+    background-size: cover;
+}
+
+.header-container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.header-text-btn {
+    display: flex;
+    gap: 40px;
+}
+
+.header-text-btn button {
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+main  {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+}
+
+.text-content {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.text-content h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-content p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 200px;
+    font-style: italic;
+}
+
+.text-content button {
+    width: 150px;
+    height: 40px;
+    background-color: brown;
+    color: white;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    right: 310px;
+    bottom: 100px;
+}
+
+#result {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#result img:hover {
+    transform: scale(1.05);
+    transition: 2s;
+}
+
+#result span {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0,0.8)), url(website-img/ICONSPORT_Flamengo-v-Sao-Paulo-33.jpg);
+    background-position: center top;
+}
+
+.container-article {
+    width: 1200px;
+    height: 400px;
+    background: white;
+}
+
+.container-article h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding: 8px;
+}
+
+.container-article p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    padding: 18px;
+    color: rgb(172, 165, 165);
+}
+
+.container-article span {
+    color: brown;
+    font-weight: bold;
+}
+
+#news {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-news {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.title-news {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    padding: 50px;
+}
+
+.title-news span {
+    color: brown;
+}
+
+.news1, .news2, .news3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-news1 {
+    width: 350px;
+    height: 200px;
+    background: url(website-img/er7.jfif);
+    background-size: cover;
+}
+
+.card-news2 {
+    width: 350px;
+    height: 200px;
+    background: url(website-img/DL.jfif);
+    background-size: cover;
+}
+
+.card-news3 {
+    width: 350px;
+    height: 200px;
+    background: url(website-img/bh.jfif);
+    background-size: cover;
+}
+
+.title1, .title2, .title3 {
+    display: flex;
+    gap: 72px;
+    margin-top: 15px;
+}
+
+.title1 h3, .title2 h3, .title3 h3  {
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    font-size: 1rem;
+}
+
+.title1 p, .title2 p, .title3 p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(184, 182, 182);
+}
+
+.sub-title1 h3, .sub-title2 h3, .sub-title3 h3 {
+    max-width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+#footer {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    color: white;
+}
+
+#footer h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+
+}
