@@ -59,6 +59,8 @@ main  {
     display: flex;
     flex-wrap: wrap;
     height: 100%;
+    position: relative;
+    top: 150px;
 }
 
 .text-content h1 {
@@ -125,6 +127,21 @@ main  {
     width: 1200px;
     height: 400px;
     background: white;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 .container-article h1 {
@@ -181,6 +198,24 @@ main  {
     height: 200px;
     background: url(website-img/er7.jfif);
     background-size: cover;
+}
+
+.card-news1:hover {
+    transform: scale(1.05);
+    transition: 2s ease-in-out;
+    cursor: pointer;
+}
+
+.card-news2:hover {
+    transform: scale(1.05);
+    transition: 2s ease-in-out;
+    cursor: pointer;
+}
+
+.card-news3:hover {
+    transform: scale(1.05);
+    transition: 2s ease-in-out;
+    cursor: pointer;
 }
 
 .card-news2 {
