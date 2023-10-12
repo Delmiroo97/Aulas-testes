@@ -29,19 +29,26 @@ header .itens {
     justify-content: space-around;
 }
 
+header .itens  i {
+    color: blueviolet;
+    font-size: 2rem;
+    margin-top: 60px;
+}
+
 header .itens ul {
     display: flex;
     gap: 50px;
     list-style: none;
 }
 
-header .itens i, ul {
+header .itens  ul {
     margin-top: 60px;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3rem;
     font-weight: bold;
 }
+ 
 
 header .bg {
     width: 100%;
@@ -61,7 +68,7 @@ header .bg-img {
 
 header .bg-img {
     transform: translateX(0px);
-    animation: float 5s ease-in-out infinite;
+    animation: float 3s ease-in-out infinite;
 }
 
 @keyframes float {
