@@ -98,6 +98,10 @@ header .bg-text {
     gap: 20px;
 }
 
+header .bg-text {
+    background: linear-gradient(right blueviolet, green);
+}
+
 
 header .bg-text p {
     font-size: 1.2rem;
