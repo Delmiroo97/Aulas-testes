@@ -124,6 +124,11 @@ header, .text {
     font-family: 'B612', sans-serif;
     font-weight: bold;
     text-decoration: none;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    opacity: 0.5;
 }
 
 .btn2 {
@@ -133,6 +138,11 @@ header, .text {
     font-family: 'B612', sans-serif;
     font-weight: bold;
     text-decoration: none;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: rgb(26, 26, 116);
 }
 
 .btn1, .btn2,  a {
