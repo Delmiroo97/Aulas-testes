@@ -39,7 +39,7 @@
     }
     
     .itens {
-        gap: 10px;
+        gap: 7px;
         position: relative;
         bottom: 250px;
         
@@ -47,15 +47,15 @@
 
 
     .itens span i {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     .itens i {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     .itens  p {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     .buttons {
