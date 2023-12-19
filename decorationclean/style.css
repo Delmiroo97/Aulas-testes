@@ -1,0 +1,308 @@
+@charset "UTF-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+:root {
+    --font-family01: font-family: 'Source Code Pro', monospace;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Inicío do Header*/
+
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: #171731;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-header {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.logo-header i {
+    font-size: 2rem;
+}
+
+
+.description-header {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    position: relative;
+    right: 650px;
+
+}
+
+.itens {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    right: 200px;
+}
+
+.itens:hover {
+    cursor: pointer;
+}
+
+/* Final do Header*/
+
+/*Início do cantainer 01*/
+
+#container01 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.mrkt-container {
+    max-width: 50%;
+    padding: 50px;
+}
+
+.mrkt-container h1 {
+    font-size: 1.8rem;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color:#171731;
+    position: relative;
+} 
+
+
+.mrkt-container h2 {
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color:#b2b4b4
+}
+
+.mrkt-container h1, h2, button {
+    position: relative;
+    top: 200px;
+    margin-top: 20px;
+}
+
+.mrkt-container button {
+    padding: 8px 30px;
+    background-color: #171731;
+    color: #fff;
+    border: 0;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 20px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.mrkt-container a {
+    font-style: italic;
+    color: #171731;
+    position: relative;
+    top: 170px;
+    left: 270px;
+    font-size: 1.7rem;
+    border-bottom: #171731;
+}
+
+
+.background-container {
+    max-width: 50%;
+    height: 800px;  
+}
+
+
+.background-img {
+    width: 900px;
+    height: 100vh;
+    background: url(img-clean/quarto-vazio-moderno-com-mobilia.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    right: 100px;
+}
+
+/* Final do container 01 */
+
+/*Início do container 02*/
+
+#container02 {
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+.two-face {
+    max-width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.contra-sombra  {
+    width: 400px;
+    height: 500px;
+    background-color: #171731;
+}
+
+.background {
+    width: 400px;
+    height: 500px;
+    background: url(img-clean/vista-do-quarto-com-decoracao-de-arranjo-de-cama.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    right: 300px;
+    top: 60px;
+}
+
+.information-description {
+    background-color: #171731;
+    color: #fff;
+    padding: 8px 30px;
+}
+
+.information {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information h1 {
+    font-size: 2.3rem;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.information p {
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.information span p {
+    font-style: italic;
+    border-bottom: 1px solid;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px;
+    position: relative;
+    right: 173px;
+}
+
+/* Final do container 02 */
+
+
+#container03 {
+    width: 100%;
+    height: 700px;
+    background-color: #171731;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container03 h1 {
+    margin-top: 50px;
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+#container03 p {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.dad-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.card01, .card02, .card03 {
+    width: 400px;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.card01 {
+    background: url(img-clean/sala-estilo-mid-century-com-cores-quentes-ai-generative.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card02 {
+    background: url(img-clean/lindas-decoracoes-de-interiores.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card03 {
+    background: url(img-clean/design-de-interiores-com-molduras-e-sofa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container04 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container04 h1 {
+    margin-top: 50px;
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase
+}
+
+#container04 p {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+#container04 button {
+    padding: 8px 30px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+} 
+
+#container04 button {
+    position: relative;
+    top: 100px;
+}
+
+#footer {
+    width: 100%;
+    height: 300px;
+}

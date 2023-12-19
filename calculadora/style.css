@@ -1,0 +1,247 @@
+@charset "UTF-8"; 
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.lado-externo {
+    width: 400px;
+    height: 500px;
+    background-color: rgb(10, 11, 12);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calc {
+        width: 350px;
+        height: 80px;
+        background-color: rgb(116, 139, 93);
+        border-radius: 20px;
+        margin-top: 20px;
+        border: 0;
+        outline: 0;
+        font-size: 3rem;
+        color: #fff;
+    }
+
+.btns {
+    width: 90%;
+    height: 350px;
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#um {
+    width: 70px;
+    height: 70px;
+    background-color: lightslategrey;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #fff;
+}
+
+#dois {
+    width: 70px;
+    height: 70px;
+    background-color: lightslategrey;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #fff;
+}
+
+#tres {
+    width: 70px;
+    height: 70px;
+    background-color: lightslategrey;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #fff;
+}
+
+#quatro {
+    width: 70px;
+    height: 70px;
+    background-color: lightgray;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+#cinco {
+    width: 70px;
+    height: 70px;
+    background-color: lightslategrey;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #fff;
+}
+
+#seis {
+    width: 70px;
+    height: 70px;
+    background-color: lightslategrey;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #fff;
+}
+
+#sete {
+    width: 70px;
+    height: 70px;
+    background-color: lightslategrey;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #fff;
+}
+
+#oito {
+    width: 70px;
+    height: 70px;
+    background-color: lightgray;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #fff;
+}
+
+#nove {
+    width: 70px;
+    height: 70px;
+    background-color: lightslategrey;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #fff;
+}
+
+#dez {
+    width: 70px;
+    height: 70px;
+    background-color: lightslategrey;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #fff;
+}
+
+#onze {
+    width: 70px;
+    height: 70px;
+    background-color: lightslategrey;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #fff;
+}
+
+#doze {
+    width: 70px;
+    height: 70px;
+    background-color: lightgray;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: #fff;
+}
+
+#treze {
+    width: 70px;
+    height: 70px;
+    background-color: lightslategrey;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #fff;
+}
+
+#quartoze {
+    width: 70px;
+    height: 70px;
+    background-color: lightgray;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+#quinze {
+    width: 70px;
+    height: 70px;
+    background-color: lightgray;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+#dezesseis {
+    width: 70px;
+    height: 70px;
+    background-color: lightgray;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #fff;
+}

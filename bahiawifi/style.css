@@ -1,0 +1,267 @@
+@charset "UTF-8"; 
+
+:root {
+
+--azul1: #007bff;
+--azul2: #016289;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Começo do header*/
+
+#header-top {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Propriedades da imagem do header */
+
+.headerimg {
+    width: 350px;
+    height: 83px;
+    background: url(img/logo3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Propriedades do menu de navegação */
+
+.headernav ul, li  {
+    display: flex;
+    text-decoration: none;
+    gap: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.headernav button {
+    padding: 13px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color:#016289;
+    border: 0;
+    cursor: pointer;
+}
+
+/* Propriedades da primeira sessão */
+
+#container1 {
+    margin-top: 100px;
+    width: 100%;
+    height: 550px;
+    position: relative;
+    overflow: hidden;;
+}
+
+/* Div com a primeira imagem */
+
+
+.comeco {
+    width: 100%;
+    height: 550px;
+    background: url(img/blue-optic-fiber-with-ethernet-cable.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Div com a segunda imagem
+ com efeito de rolagem*/
+
+
+.fim {
+    width: 100%;
+    height: 550px;
+    background: url(img/futuristic-smart-city-with-5g-global-network-technology\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    left: 100%;
+    transition: left 3.5s ease-in-out;
+}
+
+
+#container1:hover .fim {
+    left: 0%;
+}
+
+
+.comeco, .fim {
+    position: absolute;
+
+}
+
+#container2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#container2 h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#016289;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    margin-top: 100px;
+}
+
+.conjuto {
+    margin: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 300px;
+}
+
+.quadrado1 {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+
+.quadrado1 h2 {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    position: relative;
+    bottom: 35px;
+    left: 80px;
+}
+
+.quadrado1 p {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#016289
+}
+
+.gif1 {
+    background-image: url(gifs/construcao.gif);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+
+.quadrado2 {
+    width: 500px;
+    height: 300px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+
+}
+
+.quadrado2 h2 {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    position: relative;
+    bottom: 35px;
+    left: 80px;
+}
+
+.quadrado2 p {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#016289
+}
+
+.gif2 {
+    background-image: url(gifs/wi-fi.gif);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+
+.quadrado3 {
+    width: 500px;
+    height: 300px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+
+}
+
+.quadrado3 h2 {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    position: relative;
+    bottom: 35px;
+    left: 80px;
+}
+
+.quadrado3 p {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#016289
+}
+
+.gif3 {
+    background-image: url(gifs/varredura-ocular.gif);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+
+.quadrado4 {
+    width: 500px;
+    height: 300px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+
+}
+
+.quadrado4 h2 {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    position: relative;
+    bottom: 35px;
+    left: 80px;
+}
+
+.quadrado4 p {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#016289
+}
+
+.gif4 {
+    background-image: url(gifs/queda-de-braco.gif);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
