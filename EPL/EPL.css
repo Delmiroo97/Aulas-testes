@@ -1,0 +1,188 @@
+@charset "UTF-8"; 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+
+body {
+    width: 100%;
+    height: 100vh; 
+    background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0,0.8)), url(img-PL/bg3.jpg);
+    background-repeat: no-repeat;
+}
+
+.header-itens {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background: url(img-PL/epl-premierleague-logo.png);
+    background-position: center;
+    background-size: cover;
+    background-color: chartreuse;
+    border-radius: 8px;
+    margin-left: 43px;
+}
+
+.navgation {
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    margin-right: 43px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.card1 {
+    width: 300px;
+    height: 600px;
+    background: url(img-PL/Malo\ Gusto\ -\ FootyRenders.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+   
+}
+
+.card2 {
+    width: 300px;
+    height: 600px;
+    background: url(img-PL/Bukayo\ Saka\ -\ FootyRenders.png);
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: palevioletred;
+    
+}
+
+.card3 {
+    width: 300px;
+    height: 600px;
+    background: url(img-PL/Erling\ Braut\ Håland\ -\ FootyRenders\ \(1\).png);
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color:coral;
+}
+
+.card4 {
+    width: 300px;
+    height: 600px;
+    background: url(img-PL/Rasmus\ Højlund\ -\ FootyRenders\ \(1\).png);
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color:chartreuse;
+}
+
+.card5 {
+    width: 300px;
+    height: 600px;
+    background: url(img-PL/Darwin\ Núñez\ -\ FootyRenders.png);
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color:blueviolet;
+}
+
+.card6 {
+    width: 300px;
+    height: 600px;
+    background: url(img-PL/James\ Maddison\ -\ FootyRenders.png);
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color:cyan;
+}
+
+.container2 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+
+.container2 h2 {
+    color: white;
+    padding: 43px;
+    font-size: 1.8rem;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.confrontos {
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.jogo1 {
+    width: 450px;
+    height: 200px;
+    border: solid 1px black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.everton {
+    width: 150px;
+    height: 150px;
+    background: url(img-PL/everton-football-club-256.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.totteham {
+    width: 150px;
+    height: 150px;
+    background: url(img-PL/tottenham-hotspur-football-club-256.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.jogo1 p {  
+    position: relative;
+    left: 10px;
+}
+
+.placar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    top: 20px;
+
+}
+
+.info {
+    font-size: 0.8rem;
+    color: rgb(187, 183, 183);
+}
